@@ -1,0 +1,51 @@
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 80vh;
+}
+
+.offers-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.offers-box {
+  margin: 15px;
+  padding: 15px;
+  min-height: 200px;
+  width: 40vw;
+
+  background-color: antiquewhite;
+}
+
+.home-button {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+
+  padding: 5px;
+}
+
+@media screen and (min-width: 700px) {
+  .home-button {
+    font-size: 1.5rem;
+  }
+
+  .offers-box {
+    max-width: 30%;
+  }
+
+  .offers-box h3 {
+    font-size: 1.5rem;
+  }
+
+  .offers-box p {
+    font-size: 1.3rem;
+  }
+}
